@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1.95em; /* 20px */
+    line-height: 1em;
+}
+
+header {
+    background-color: green;
+}
+
+footer {
+    background-color: green;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0% auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.logo {
+    width: 2.5rem;
+    display: block;
+    margin: 0% auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.avatar {
+    max-width: 300px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-nav {
+    list-style: none;
+    text-align: left;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 5px 10px;
+    color: burlywood;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+cite {
+    text-decoration: underline;
+    color: rgb(0, 110, 255);
+}
